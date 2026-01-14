@@ -59,7 +59,6 @@ const Join: React.FC = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-4">
-          {/* Brand Form */}
           <div className="bg-white text-black p-12 md:p-16 border-2 border-white relative overflow-hidden group">
             <AnimatePresence mode="wait">
               {!successBrand ? (
@@ -82,7 +81,6 @@ const Join: React.FC = () => {
             </AnimatePresence>
           </div>
 
-          {/* Creator Form */}
           <div className="bg-zinc-900 border-2 border-zinc-800 p-12 md:p-16 relative overflow-hidden group">
             <AnimatePresence mode="wait">
               {!successCreator ? (

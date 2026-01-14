@@ -36,7 +36,6 @@ const App: React.FC = () => {
       <div className="relative z-10">
         <Problem />
         
-        {/* Culture Statement Horizontal Bar */}
         <div className="bg-red-500 py-4 overflow-hidden whitespace-nowrap border-y border-black">
           <motion.div 
             animate={{ x: [0, -1000] }}
@@ -50,7 +49,6 @@ const App: React.FC = () => {
         <Solution />
         <HowItWorks />
         
-        {/* Intersecting Color Bar Decoration - Adjusted for seamless transition */}
         <div className="h-24 bg-blue-600 relative -skew-y-1 z-0 hidden md:block" />
 
         <Engine />

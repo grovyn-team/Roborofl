@@ -41,7 +41,6 @@ const Engine: React.FC = () => {
               </div>
             </motion.div>
           ))}
-          {/* Fill card to maintain grid */}
           <div className="bg-zinc-950 border-r border-b border-zinc-900 p-12 flex items-center justify-center opacity-20">
              <div className="text-[80px] font-black text-zinc-800">ROFL</div>
           </div>

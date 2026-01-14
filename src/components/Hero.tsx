@@ -12,7 +12,6 @@ const Hero: React.FC = () => {
 
   return (
     <div className="relative h-screen flex flex-col items-center justify-center overflow-hidden bg-[#09090b]">
-      {/* Background Graphic Elements */}
       <motion.div 
         animate={{ rotate: 360 }}
         transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
@@ -80,7 +79,6 @@ const Hero: React.FC = () => {
         </motion.div>
       </div>
 
-      {/* Playful Geometry Elements */}
       <div className="absolute top-1/4 right-1/4 opacity-20 pointer-events-none">
         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M20 0L24.4903 15.5097L40 20L24.4903 24.4903L20 40L15.5097 24.4903L0 20L15.5097 15.5097L20 0Z" fill="white"/>
